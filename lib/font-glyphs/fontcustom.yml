@@ -36,8 +36,9 @@ templates: [ scss, preview ]
 # automatically normalized to lower-spinal-case
 #
 # default: fontcustom
+# http://www.alessioatzeni.com/meteocons/
 
-font_name: meteocons # http://www.alessioatzeni.com/meteocons/
+font_name: meteocons
 
 # ---------------------------------------------------------------------------- #
 # Font Hash
@@ -45,7 +46,7 @@ font_name: meteocons # http://www.alessioatzeni.com/meteocons/
 #
 # default: true
 
-#file_hash: false
+file_hash: false
 
 # ---------------------------------------------------------------------------- #
 # CSS Class Prefix
