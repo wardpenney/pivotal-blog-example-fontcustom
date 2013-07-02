@@ -21,7 +21,7 @@ output: lib/font-glyphs/fonts
 # array of templates to generate alongside fonts
 # accepts shortcuts or paths (absolute, relative to INPUT, or relative to `pwd`)
 #
-# shortcuts: 
+# shortcuts:
 #   preview
 #   css, scss
 #   bootstrap, bootstrap-scss
@@ -36,9 +36,8 @@ templates: [ scss, preview ]
 # automatically normalized to lower-spinal-case
 #
 # default: fontcustom
-# http://www.alessioatzeni.com/meteocons/
 
-font_name: meteocons
+font_name: examplecon
 
 # ---------------------------------------------------------------------------- #
 # Font Hash
@@ -53,7 +52,7 @@ file_hash: false
 #
 # default: icon-
 
-css_prefix: meteocon-
+css_prefix: examplecon-
 
 # ---------------------------------------------------------------------------- #
 # @Font-face Path

@@ -1,0 +1,19 @@
+{
+  "fonts": [
+    "examplecon.ttf",
+    "examplecon.woff",
+    "examplecon.eot",
+    "examplecon.svg"
+  ],
+  "templates": [
+    "_fontcustom.scss",
+    "fontcustom-preview.html",
+    "fontcustom.css"
+  ],
+  "file_name": "examplecon",
+  "glyphs": [
+    "hex",
+    "star",
+    "tree"
+  ]
+}

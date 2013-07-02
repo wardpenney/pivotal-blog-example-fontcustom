@@ -1,0 +1,22 @@
+/* 
+ * Font Custom: bare CSS
+ */
+
+
+.examplecon-hex:before,
+.examplecon-star:before,
+.examplecon-tree:before {
+  font-family: "examplecon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.examplecon-hex:before { content: "\f100"; }
+.examplecon-star:before { content: "\f101"; }
+.examplecon-tree:before { content: "\f102"; }
