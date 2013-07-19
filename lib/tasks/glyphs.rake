@@ -17,3 +17,7 @@ namespace :glyphs do
     %x{rm app/assets/stylesheets/components/_fontcustom.scss.bak}
   end
 end
+
+namespace :assets do
+  task :precompile => 'glyphs:compile'
+end
